@@ -21,19 +21,21 @@
         </style>
         <title>Alexey Muzyka / Resume</title>
     </head>
-    <body class="bg-gray-100 min-h-screen">
-        <div class="relative">
+    <body class="bg-gray-200 min-h-screen">
+        <div
+            class="relative container mx-auto p-2 md:p-4 lg:p-6 shadow-lg rounded-lg"
+        >
             <div
                 class="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:25px_25px]"
             ></div>
             <div
-                class="flex items-center justify-center relative px-2 md:px-0 pt-6 xl:pt-12"
+                class="flex items-center justify-center relative pt-6 xl:pt-12"
             >
                 <div
-                    class="bg-white shadow-lg rounded-lg p-8 max-w-3xl mx-auto"
+                    class="bg-white shadow-lg rounded-lg p-6 lg:p-8 max-w-3xl mx-auto"
                 >
-                    <section class="text-center mb-8">
-                        <div class="flex justify-center mb-4">
+                    <section class="text-center mb-10">
+                        <div class="flex justify-center mb-2">
                             <div
                                 class="border-4 border-gray-300 rounded-full p-2"
                             >
@@ -44,8 +46,12 @@
                                 />
                             </div>
                         </div>
-                        <h1 class="text-4xl font-bold mb-2">Alexey Muzyka</h1>
-                        <p class="text-lg text-gray-600">
+                        <h1
+                            class="text-3xl lg:text-5xl font-extrabold mb-2 lg:mb-3"
+                        >
+                            Alexey Muzyka
+                        </h1>
+                        <p class="text-md lg:text-lg text-gray-700">
                             Founder | Software Engineer | First-time Founders
                             Advisor
                         </p>
@@ -151,12 +157,27 @@
                                 class="bg-white shadow-md rounded-lg p-6 h-72 flex flex-col hover:shadow-2xl transition-shadow duration-300 rounded-lg p-6 h-72 flex flex-col transform hover:scale-105"
                                 id="startup-school"
                             >
-                                <h3 class="text-xl font-semibold mb-2">
-                                    Startup School for First-time Founders
-                                </h3>
+                                <div class="flex gap-4 mb-2">
+                                    <img
+                                        src="./assets/startup-logos/10xcelerate.png"
+                                        alt="10xcelerate"
+                                        class="rounded-full w-12 h-12"
+                                    />
+                                    <div class="relative mb-4 mt-2">
+                                        <h3
+                                            class="text-xl font-semibold relative z-10 px-2"
+                                        >
+                                            10x Celerate
+                                        </h3>
+                                        <span
+                                            class="absolute inset-x-0 bottom-0 z-0 h-1 rounded-full bg-pink-500"
+                                        ></span>
+                                    </div>
+                                </div>
                                 <p class="text-gray-700 mb-2">
-                                    School for first-time founders to learn how
-                                    to grow startup 10x faster with less steps
+                                    Startup School for first-time founders to
+                                    learn how to grow startup 10x faster with
+                                    less steps
                                 </p>
                                 <p class="text-gray-700 mb-2 font-bold">
                                     15+ founders advised
@@ -187,9 +208,16 @@
                                             fill="#087FED"
                                         />
                                     </svg>
-                                    <h3 class="text-xl font-semibold mt-2">
-                                        Hikemyskill
-                                    </h3>
+                                    <div class="relative mb-4 mt-2">
+                                        <h3
+                                            class="text-xl font-semibold relative z-10 px-2"
+                                        >
+                                            Hikemyskill
+                                        </h3>
+                                        <span
+                                            class="absolute inset-x-0 bottom-0 z-0 h-1 rounded-full bg-blue-500"
+                                        ></span>
+                                    </div>
                                 </div>
                                 <p class="text-gray-700 mb-2">
                                     Platform to learn any skill by solving
@@ -218,9 +246,16 @@
                                         alt="Toogle"
                                         class="rounded-full w-12 h-12"
                                     />
-                                    <h3 class="text-xl font-semibold mt-2">
-                                        Toogle
-                                    </h3>
+                                    <div class="relative mb-4 mt-2">
+                                        <h3
+                                            class="text-xl font-semibold relative z-10 px-2"
+                                        >
+                                            Toogle
+                                        </h3>
+                                        <span
+                                            class="absolute inset-x-0 bottom-0 z-0 h-1 rounded-full bg-gray-400"
+                                        ></span>
+                                    </div>
                                 </div>
                                 <p class="text-gray-700 mb-2">
                                     Telegram mini app to search channels with
@@ -243,6 +278,15 @@
                                     </span>
                                 </p>
                             </div>
+                            <div class="flex items-center justify-center">
+                                <h3
+                                    class="text-xl font-semibold relative z-10 px-2 text-center"
+                                >
+                                    And two more :)
+                                    <br />
+                                    but this is not important...
+                                </h3>
+                            </div>
                         </div>
                     </section>
 
@@ -254,7 +298,9 @@
                         </h2>
                         <div class="space-y-4">
                             <div class="bg-white shadow-md rounded-lg p-6">
-                                <h3 class="text-xl font-semibold mb-2">
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-2"
+                                >
                                     How do you keep your knowledge in the most
                                     concise format possible?
                                 </h3>
@@ -264,13 +310,15 @@
                                         href="#startup-school"
                                         class="text-blue-500 hover:underline"
                                     >
-                                        Startup School
+                                        10x Celerate
                                     </a>
                                     for first-time founders
                                 </p>
                             </div>
                             <div class="bg-white shadow-md rounded-lg p-6">
-                                <h3 class="text-xl font-semibold mb-2">
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-2"
+                                >
                                     How do you digitize a person's skills to
                                     identify pinpoint problems?
                                 </h3>
@@ -285,7 +333,9 @@
                                 </p>
                             </div>
                             <div class="bg-white shadow-md rounded-lg p-6">
-                                <h3 class="text-xl font-semibold mb-2">
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-2"
+                                >
                                     How to realize on your own that you are
                                     wrong in thinking about something?
                                 </h3>
@@ -309,7 +359,9 @@
                             class="space-y-4 xl:space-y-0 xl:grid xl:gap-6 xl:grid-cols-2"
                         >
                             <li>
-                                <h3 class="text-xl font-semibold">
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-1"
+                                >
                                     Programming Languages
                                 </h3>
                                 <p class="text-gray-700">
@@ -331,7 +383,9 @@
                                 </p>
                             </li>
                             <li>
-                                <h3 class="text-xl font-semibold">
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-1"
+                                >
                                     Frameworks
                                 </h3>
                                 <p class="text-gray-700">
@@ -362,7 +416,11 @@
                                 </p>
                             </li>
                             <li>
-                                <h3 class="text-xl font-semibold">Databases</h3>
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-1"
+                                >
+                                    Databases
+                                </h3>
                                 <p class="text-gray-700">
                                     <span class="w-28 inline-block">
                                         MySQL:
@@ -393,7 +451,11 @@
                                 </p>
                             </li>
                             <li>
-                                <h3 class="text-xl font-semibold">DevOps</h3>
+                                <h3
+                                    class="text-lg lg:text-xl font-semibold mb-1"
+                                >
+                                    DevOps
+                                </h3>
                                 <p class="text-gray-700">
                                     <span class="w-28 inline-block">
                                         Docker:
@@ -415,10 +477,34 @@
                                 </p>
                             </li>
                         </ul>
+                        <div
+                            class="flex flex-col items-center justify-center mt-12"
+                        >
+                            <a
+                                href="./assets/Alex_Muzyka_resume.pdf"
+                                download
+                                class="bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 font-semibold py-2 px-4 rounded-lg inline-flex items-center transition duration-300 ease-in-out shadow-sm hover:shadow-md"
+                            >
+                                <svg
+                                    class="fill-current w-4 h-4 mr-2"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path
+                                        d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"
+                                    />
+                                </svg>
+                                <span>Download PDF</span>
+                            </a>
+                            <p class="text-gray-600 text-xs mt-2">
+                                Resume last updated:
+                                <span id="pdfLastUpdated">April 15, 2024</span>
+                            </p>
+                        </div>
                     </section>
                 </div>
             </div>
-            <footer class="text-center mt-4 pb-6 xl:pb-12">
+            <footer class="text-center mt-4 pb-6 mx-2 md:mx-0 xl:pb-12">
                 <p class="text-gray-600 text-sm">
                     This resume is open source and you can find it on
                     <a
@@ -438,6 +524,10 @@
                         JetBrains Mono
                     </a>
                     :)
+                </p>
+
+                <p class="text-gray-600 text-xs mt-4">
+                    Last updated: September 19, 2024
                 </p>
             </footer>
         </div>

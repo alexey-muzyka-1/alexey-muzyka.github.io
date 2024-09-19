@@ -8,4 +8,4 @@ amend:
 push:
 	git push --force
 
-fix-and-push: format amend push
+amend-and-push: format amend push
